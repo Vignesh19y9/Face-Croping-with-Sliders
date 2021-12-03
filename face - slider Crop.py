@@ -49,5 +49,6 @@ while(1):
    
    k = cv2.waitKey(1) & 0xFF
    if k == ord('q'):
+      cv2.imwrite("output",x1)
      break
 cv2.destroyAllWindows()
